@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #000000, rgb(109, 7, 197));
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    list-style: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .nav-links li:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .nutricionistas-section {
+    padding: 2rem;
+    text-align: center;
+  }
+  .nutricionistas-page h2 {
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 1rem;
+  }
+  
+  .avatar img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1rem;
+  }
+  
+  .social-media-icons {
+    margin-top: 1rem;
+  }
+  .nutricionistas-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente se necessário */
+    min-height: 100vh; /* Faz com que o contêiner ocupe a altura total da tela */
+    background: linear-gradient(to right, #000000, rgb(109, 7, 197));
+    color: white;
+  }  
+  .nutricionistas-page h2 {
+    text-align: center;
+  }
